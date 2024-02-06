@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tournament-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Cesar E Garza <cesar@cegarza.com>"]
+readme = "README.md"
+packages = [{include = "tournament_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.1"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
